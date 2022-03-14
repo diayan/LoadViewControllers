@@ -13,6 +13,7 @@
 		B2070C6A27DB7EF200BF91A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2070C6827DB7EF200BF91A5 /* Main.storyboard */; };
 		B2070C6C27DB7EF400BF91A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2070C6B27DB7EF400BF91A5 /* Assets.xcassets */; };
 		B2070C6F27DB7EF400BF91A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2070C6D27DB7EF400BF91A5 /* LaunchScreen.storyboard */; };
+		B2C1E07527DED0EF0080B5E0 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1E07427DED0EF0080B5E0 /* StoryboardBasedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B2070C6B27DB7EF400BF91A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2070C6E27DB7EF400BF91A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2070C7027DB7EF400BF91A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C1E07427DED0EF0080B5E0 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B2070C6227DB7EF200BF91A5 /* AppDelegate.swift */,
 				B2070C6427DB7EF200BF91A5 /* SceneDelegate.swift */,
+				B2C1E07427DED0EF0080B5E0 /* StoryboardBasedViewController.swift */,
 				B2070C6627DB7EF200BF91A5 /* ViewController.swift */,
 				B2070C6827DB7EF200BF91A5 /* Main.storyboard */,
 				B2070C6B27DB7EF400BF91A5 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2070C6727DB7EF200BF91A5 /* ViewController.swift in Sources */,
+				B2C1E07527DED0EF0080B5E0 /* StoryboardBasedViewController.swift in Sources */,
 				B2070C6327DB7EF200BF91A5 /* AppDelegate.swift in Sources */,
 				B2070C6527DB7EF200BF91A5 /* SceneDelegate.swift in Sources */,
 			);
