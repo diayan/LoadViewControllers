@@ -14,7 +14,18 @@
 		B2070C6C27DB7EF400BF91A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2070C6B27DB7EF400BF91A5 /* Assets.xcassets */; };
 		B2070C6F27DB7EF400BF91A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2070C6D27DB7EF400BF91A5 /* LaunchScreen.storyboard */; };
 		B2C1E07527DED0EF0080B5E0 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1E07427DED0EF0080B5E0 /* StoryboardBasedViewController.swift */; };
+		B2C1E07D27DED3500080B5E0 /* StoryboardBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1E07C27DED3500080B5E0 /* StoryboardBasedViewControllerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C1E07E27DED3500080B5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2070C5727DB7EF200BF91A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2070C5E27DB7EF200BF91A5;
+			remoteInfo = LoadViewControllers;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B2070C5F27DB7EF200BF91A5 /* LoadViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,19 @@
 		B2070C6E27DB7EF400BF91A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2070C7027DB7EF400BF91A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C1E07427DED0EF0080B5E0 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
+		B2C1E07A27DED3500080B5E0 /* StoryboardBasedViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardBasedViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C1E07C27DED3500080B5E0 /* StoryboardBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B2070C5C27DB7EF200BF91A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C1E07727DED3500080B5E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B2070C6127DB7EF200BF91A5 /* LoadViewControllers */,
+				B2C1E07B27DED3500080B5E0 /* StoryboardBasedViewControllerTests */,
 				B2070C6027DB7EF200BF91A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				B2070C5F27DB7EF200BF91A5 /* LoadViewControllers.app */,
+				B2C1E07A27DED3500080B5E0 /* StoryboardBasedViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +90,14 @@
 				B2070C7027DB7EF400BF91A5 /* Info.plist */,
 			);
 			path = LoadViewControllers;
+			sourceTree = "<group>";
+		};
+		B2C1E07B27DED3500080B5E0 /* StoryboardBasedViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C1E07C27DED3500080B5E0 /* StoryboardBasedViewControllerTests.swift */,
+			);
+			path = StoryboardBasedViewControllerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +120,24 @@
 			productReference = B2070C5F27DB7EF200BF91A5 /* LoadViewControllers.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B2C1E07927DED3500080B5E0 /* StoryboardBasedViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C1E08027DED3500080B5E0 /* Build configuration list for PBXNativeTarget "StoryboardBasedViewControllerTests" */;
+			buildPhases = (
+				B2C1E07627DED3500080B5E0 /* Sources */,
+				B2C1E07727DED3500080B5E0 /* Frameworks */,
+				B2C1E07827DED3500080B5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C1E07F27DED3500080B5E0 /* PBXTargetDependency */,
+			);
+			name = StoryboardBasedViewControllerTests;
+			productName = StoryboardBasedViewControllerTests;
+			productReference = B2C1E07A27DED3500080B5E0 /* StoryboardBasedViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +150,10 @@
 				TargetAttributes = {
 					B2070C5E27DB7EF200BF91A5 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					B2C1E07927DED3500080B5E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B2070C5E27DB7EF200BF91A5;
 					};
 				};
 			};
@@ -119,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				B2070C5E27DB7EF200BF91A5 /* LoadViewControllers */,
+				B2C1E07927DED3500080B5E0 /* StoryboardBasedViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +184,13 @@
 				B2070C6F27DB7EF400BF91A5 /* LaunchScreen.storyboard in Resources */,
 				B2070C6C27DB7EF400BF91A5 /* Assets.xcassets in Resources */,
 				B2070C6A27DB7EF200BF91A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C1E07827DED3500080B5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +208,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2C1E07627DED3500080B5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C1E07D27DED3500080B5E0 /* StoryboardBasedViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C1E07F27DED3500080B5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2070C5E27DB7EF200BF91A5 /* LoadViewControllers */;
+			targetProxy = B2C1E07E27DED3500080B5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2070C6827DB7EF200BF91A5 /* Main.storyboard */ = {
@@ -342,6 +418,42 @@
 			};
 			name = Release;
 		};
+		B2C1E08127DED3500080B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WTXG2G2BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.diayansiat.StoryboardBasedViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadViewControllers.app/LoadViewControllers";
+			};
+			name = Debug;
+		};
+		B2C1E08227DED3500080B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WTXG2G2BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.diayansiat.StoryboardBasedViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadViewControllers.app/LoadViewControllers";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +471,15 @@
 			buildConfigurations = (
 				B2070C7427DB7EF400BF91A5 /* Debug */,
 				B2070C7527DB7EF400BF91A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C1E08027DED3500080B5E0 /* Build configuration list for PBXNativeTarget "StoryboardBasedViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C1E08127DED3500080B5E0 /* Debug */,
+				B2C1E08227DED3500080B5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
