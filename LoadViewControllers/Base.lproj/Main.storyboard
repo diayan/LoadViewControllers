@@ -26,7 +26,7 @@
         <!--Storyboard Based View Controller-->
         <scene sceneID="g6L-wc-FRM">
             <objects>
-                <viewController id="I3M-67-IiI" customClass="StoryboardBasedViewController" customModule="LoadViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoryboardBasedViewController" id="I3M-67-IiI" customClass="StoryboardBasedViewController" customModule="LoadViewControllers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ks-bb-HTe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
